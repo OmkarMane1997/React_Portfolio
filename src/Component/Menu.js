@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Menu = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-md navbar-dark bg-success">
         <div className="container">
           <NavLink className="navbar-brand" to={"/home"}>
             Omkar Mane
@@ -35,11 +35,11 @@ const Menu = () => {
                   Skills
                 </NavLink>
               </li>
-              <li className="nav-item ">
+              {/* <li className="nav-item ">
                 <NavLink className="nav-link" to={"/academic"}>
                   Academic
                 </NavLink>
-              </li>
+              </li> */}
 
               <li className="nav-item ">
                 <NavLink className="nav-link" to={"/projects"}>
@@ -58,11 +58,11 @@ const Menu = () => {
                   GitHub
                 </NavLink>
               </li>
-              <li className="nav-item ">
+              {/* <li className="nav-item ">
                 <NavLink className="nav-link" to={"/resumedownload"}>
                   Resume Download
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

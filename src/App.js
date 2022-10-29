@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter , Routes ,Route } from "react-router-dom";
+// import css
+// import "./App.css"
 import Home from "./Component/Home";
 import Menu from "./Component/Menu";
 import Experience from "./Component/Experience";
