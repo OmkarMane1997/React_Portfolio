@@ -10,7 +10,7 @@ import Skills from "./Component/Skills";
 import Projects from "./Component/Projects";
 import Contact from "./Component/Contact";
 import Pnf from "./Component/Pnf";
-import GitHub from "./Component/Github";
+// import GitHub from "./Component/Github";
 import Resumedownload from "./Component/Resumedownload";
 
 
@@ -26,7 +26,7 @@ function App() {
         <Route path={'/academic'} element={<Academic/>}></Route>
         <Route path={'/projects'} element={<Projects/>}></Route>
         <Route path={'/contact'} element={<Contact/>}></Route>
-        <Route path={'/github'} element={<GitHub/>}></Route>
+        {/* <Route path={'/github'} element={<GitHub/>}></Route> */}
         <Route path={'/resumedownload'} element={<Resumedownload/>}></Route>
         <Route path={'/*'} element={<Pnf/>}></Route>
       </Routes>
