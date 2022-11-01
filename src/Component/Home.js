@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Profile from "../images/profile.jpeg";
+import Profile from "../images/profile.png";
 import "../Component/css/Home.css";
 
 const Home = () => {

@@ -25,7 +25,7 @@ const Contact = () => {
 
   }
   return (
-    <div>
+    <div className="container">
       <h1 className="text-center my-5"> Get In Touch With Me</h1>
       <div className="row">
         <div className="col-md-6 offset-md-3">

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter , Routes ,Route } from "react-router-dom";
 // import css
-// import "./App.css"
+import "./App.css"
 import Home from "./Component/Home";
 import Menu from "./Component/Menu";
 import Experience from "./Component/Experience";
@@ -29,10 +29,10 @@ function App() {
         <Route path={'/github'} element={<GitHub/>}></Route>
         <Route path={'/resumedownload'} element={<Resumedownload/>}></Route>
         <Route path={'/*'} element={<Pnf/>}></Route>
-
       </Routes>
-
+      
     </BrowserRouter>
+   
 
     
   );
