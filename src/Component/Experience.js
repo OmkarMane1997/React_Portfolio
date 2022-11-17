@@ -13,12 +13,12 @@ const experienceInfo = [
         projectDescription:"Small E-commerce to Manage the orders / quotation related Products by Admin/Owner. User add the Product in Cart and place Order / Quotation.[Its used for super distributors (admin) to wholesale distributor (user) ]"
       },
       {
-        projectName: "Clientele Hospital",
+        projectName: "Star Education",
         projectDescription:
           "This is an admin panel of start eduction app , In this Admin can manage the topic , syllabus, home work, learning videos,PDF Books ,MCQ etc. To display in android application at user End.Create user , Manage them as per requirement of teachers",
       },
       {
-        projectName: "Star Education",
+        projectName:"Clientele Hospital" ,
         projectDescription:
           "Hospital management system.Manage the following thinks like Front Office Management,New Patient Registration,New Employee Registration, Appointment Management,invoice generator etc.",
       },

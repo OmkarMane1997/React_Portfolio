@@ -53,16 +53,16 @@ const Menu = () => {
               </li>
             </ul>
             <ul className="navbar-nav justify-content-end">
-              <li className="nav-item ">
+              {/* <li className="nav-item ">
                 <NavLink className="nav-link" to={"/github"}>
                   GitHub
                 </NavLink>
-              </li>
-              {/* <li className="nav-item ">
+              </li> */}
+              <li className="nav-item ">
                 <NavLink className="nav-link" to={"/resumedownload"}>
                   Resume Download
                 </NavLink>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>
